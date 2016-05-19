@@ -9,11 +9,11 @@ Module-ified by Kyler Brown, 2016.
 
 ## installation
 
-        git clone https://github.com/kylerbrown/rhd.git
-        cd rhd
-        python setup.py install
+    git clone https://github.com/kylerbrown/rhd.git
+    cd rhd
+    python setup.py install
 
 ## usage
 
-        import rhd
-        rhd.read_data("file.rhd")
+    import rhd
+    rhd.read_data("file.rhd")
