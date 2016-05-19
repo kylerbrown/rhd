@@ -16,4 +16,7 @@ Module-ified by Kyler Brown, 2016.
 ## usage
 
     import rhd
-    rhd.read_data("file.rhd")
+    data = rhd.read_data("file.rhd")
+    import matplotlib.pyplot as plt
+    plt.plot(data['amplifier_data'][:,:1000].T)
+    plt.show()
