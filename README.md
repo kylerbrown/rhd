@@ -9,6 +9,9 @@ Module-ified by Kyler Brown, 2016.
 
 ## installation
 
+        git clone https://github.com/kylerbrown/rhd.git
+        cd rhd
+        python setup.py install
 
 ## usage
 
