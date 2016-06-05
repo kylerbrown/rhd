@@ -16,7 +16,10 @@ Module-ified by Kyler Brown, 2016.
 ## usage
 
     import rhd
-    data = rhd.read_data("file.rhd")
+    # To keep memory usage down, use argument nofloat=True.
+    # Otherwise, data is loaded as floating point arrays
+    # (4x the space required).
+    data = rhd.read_data("file.rhd", nofloat=True)
     import matplotlib.pyplot as plt
     plt.plot(data['amplifier_data'][:,:1000].T)
     plt.show()
